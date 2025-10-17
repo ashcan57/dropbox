@@ -1,0 +1,12 @@
+<addon id="repository.encore" name="Encore Repository" version="1.0.0" provider-name="Encore">
+    <extension point="xbmc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/ashcan57/dropbox/main/repository.encore/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/ashcan57/dropbox/main/repository.encore/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/ashcan57/dropbox/main/repository.encore/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Encore Kodi Repository</summary>
+        <description>Repository hosting Encore addons.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
